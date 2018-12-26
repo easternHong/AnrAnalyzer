@@ -1,0 +1,47 @@
+<idea-plugin>
+    <id>com.eastern.tools</id>
+    <name>AnrAnalyzer</name>
+    <version>1.0.0-SNAPSHOT</version>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+    <description><![CDATA[
+      .<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      ~CPU密集，导致主线程没法抢占cpu时间片,要注意cpu占用高的进程
+      ~高IO，如不当访问数据库导致数据库负载过重时(log中cpu的使用iowait占比高)
+      ~低内存（low memory），如内存不足导致block在创建bitmap上
+      ~死锁引发ANR,非主线程持有主线程需要的锁对象,导致主线程等待超时,通常log中会有以下字段 Blocked  | - locked | waiting to lock | held by thread,这个时候cpu多数是空闲，使用占比很低
+      ~当前应用进程进行进程间通信请求其他进程，其他进程的操作长时间没有反馈,例如操作硬件Camera
+      ~Service binder数量达到上限
+      ~在system_server中触发WatchDog ANR
+        .<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="com.eastern.tools" class="com.eastern.tools.ui.Main"
+                text="Anr Analyzer" description="analyze anr local"
+                popup="true">
+            <add-to-group group-id="AnalyzeMenu" anchor="last"/>
+        </action>
+    </actions>
+
+</idea-plugin>
