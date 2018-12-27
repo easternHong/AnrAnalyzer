@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bea0554d-f2df-48f8-a441-1457aa953292" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/logcat/LogcatParser.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANRAnalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ANRAnalyzer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/parser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parser/parser.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/Parser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/Parser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/AnalyzerSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/AnalyzerSet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/BroadcastAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/BroadcastAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/ContentProviderAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/ContentProviderAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/CpuAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/CpuAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/DeadLockAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/DeadLockAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/IAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/IAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/IOWaitAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/IOWaitAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/IPCAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/IPCAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/InputDispatchingAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/InputDispatchingAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/LockWaitAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/LockWaitAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/LocksAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/LocksAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/ServiceAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/ServiceAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/SystemServerAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/SystemServerAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/TrackExternalAllocationAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/TrackExternalAllocationAnalyzer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/er/UIThreadAnalyzer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/UIThreadAnalyzer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/src/com/eastern/parser/test/MainTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/parser/src/com/eastern/parser/test/MainTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,18 +22,39 @@
           <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="1" />
+          <entry key="kt" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="Kotlin" value="7" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="kt" value="881" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Kotlin" value="881" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/eastern/tools/ui/Main.kt">
+        <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/test/MainTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-              <folding>
-                <element signature="e#30#301#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="298">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -83,6 +86,10 @@
         <option value="$PROJECT_DIR$/src/com/eastern/tools/Main.kt" />
         <option value="$PROJECT_DIR$/src/com/eastern/tools/ui/Main.kt" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/parser/src/com/eastern/parser/Parser.kt" />
+        <option value="$PROJECT_DIR$/parser/src/com/eastern/parser/report/Reporter.kt" />
+        <option value="$PROJECT_DIR$/parser/src/com/eastern/parser/logcat/LogcatParser.kt" />
+        <option value="$PROJECT_DIR$/parser/src/com/eastern/parser/test/MainTest.kt" />
       </list>
     </option>
   </component>
@@ -117,35 +124,6 @@
               <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnrAnalyzer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnrAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -158,7 +136,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545879999064" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545883981991" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/yy/Build" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -243,17 +221,18 @@
       <option name="presentableId" value="Default" />
       <updated>1545827877190</updated>
       <workItem from="1545879409695" duration="232000" />
-      <workItem from="1545879661639" duration="306000" />
+      <workItem from="1545879661639" duration="4095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="538000" />
+    <option name="totallyTimeSpent" value="4327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18376069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.092796095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,12 +241,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11073446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11073446" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.52090394" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32881355" />
@@ -338,14 +317,14 @@
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/javax/swing/JFileChooser.class" />
-    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/model/ThreadDesc.kt">
+    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/model/ThreadDesc.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/model/ContentDesc.kt">
+    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/model/ContentDesc.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
@@ -378,13 +357,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/report/IReporter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/systrace/er/AnalyzerSet.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="2750" column="6" lean-forward="true" selection-start-line="2750" selection-start-column="6" selection-end-line="2750" selection-end-column="6" />
+          <folding>
+            <element signature="e#110077#110078#0" expanded="true" />
+            <element signature="e#110134#110135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/eastern/tools/ui/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+        <state relative-caret-position="-512">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
             <element signature="e#30#301#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/report/Reporter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/logcat/LogcatParser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#35#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/Parser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parser/src/com/eastern/parser/test/MainTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
