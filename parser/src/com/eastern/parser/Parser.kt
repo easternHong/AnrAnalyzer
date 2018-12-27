@@ -49,7 +49,7 @@ object Parser : IParser {
                 if (threadStackStart) {
                     threadDesc.stack.add(it)
                 }
-                if (it.isEmpty() || it.isBlank) {
+                if (it.isEmpty() || it.isBlank()) {
                     threadStackStart = false
                 }
                 if (contentDesc.threadList.isEmpty()) {
