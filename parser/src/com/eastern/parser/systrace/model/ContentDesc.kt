@@ -1,4 +1,4 @@
-package com.eastern.parser.model
+package com.eastern.parser.systrace.model
 
 
 class ContentDesc(val pkgName: String) {

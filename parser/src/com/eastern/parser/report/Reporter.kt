@@ -1,7 +1,7 @@
 package com.eastern.parser.report
 
 
-class Reporter : IReporter {
+object Reporter : IReporter {
 
     val result = ArrayList<String>()
 

@@ -1,6 +1,6 @@
-package com.eastern.parser.er
+package com.eastern.parser.systrace.er
 
-import com.eastern.parser.model.ContentDesc
+import com.eastern.parser.systrace.model.ContentDesc
 
 /**
  * 是否内存不足

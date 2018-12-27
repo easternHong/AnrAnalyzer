@@ -1,6 +1,6 @@
-package com.eastern.parser.er
+package com.eastern.parser.systrace.er
 
-import com.eastern.parser.model.ContentDesc
+import com.eastern.parser.systrace.model.ContentDesc
 import java.util.regex.Pattern
 
 

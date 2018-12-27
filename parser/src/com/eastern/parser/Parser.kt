@@ -1,8 +1,8 @@
 package com.eastern.parser
 
-import com.eastern.parser.er.AnalyzerSet
-import com.eastern.parser.model.ContentDesc
-import com.eastern.parser.model.ThreadDesc
+import com.eastern.parser.systrace.er.AnalyzerSet
+import com.eastern.parser.systrace.model.ContentDesc
+import com.eastern.parser.systrace.model.ThreadDesc
 import com.eastern.parser.report.Reporter
 import java.io.File
 import java.util.regex.Pattern
@@ -11,9 +11,9 @@ import java.util.regex.Pattern
 object Parser : IParser {
 
 
-    val FLAG_0 = "Cmd line: "
-    val TIME_PID_REG = "----- pid [0-9]{1,5} at [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} -----"
-    val THREAD_LINE = "prio=[0-9]{1,5} tid=[0-9]{1,5}"
+    private const val FLAG_0 = "Cmd line: "
+    private const val TIME_PID_REG = "----- pid [0-9]{1,5} at [0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2} -----"
+    private const val THREAD_LINE = "prio=[0-9]{1,5} tid=[0-9]{1,5}"
 
     override fun parse(pkgName: String, file: File): String {
         var preLine = ""
@@ -49,7 +49,7 @@ object Parser : IParser {
                 if (threadStackStart) {
                     threadDesc.stack.add(it)
                 }
-                if (it.isEmpty() || it.isBlank()) {
+                if (it.isEmpty() || it.isBlank) {
                     threadStackStart = false
                 }
                 if (contentDesc.threadList.isEmpty()) {
@@ -59,11 +59,10 @@ object Parser : IParser {
             preLine = it
             lineNum++
         }
-        val reporter = Reporter()
         for (clazz in AnalyzerSet.values()) {
-            clazz.go(reporter, contentDesc)
+            clazz.go(Reporter, contentDesc)
         }
-        return reporter.result.toString()
+        return Reporter.result.toString()
     }
 
 

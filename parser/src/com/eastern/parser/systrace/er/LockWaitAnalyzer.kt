@@ -1,7 +1,7 @@
-package com.eastern.parser.er
+package com.eastern.parser.systrace.er
 
-import com.eastern.parser.model.ContentDesc
-import com.eastern.parser.model.ThreadDesc
+import com.eastern.parser.systrace.model.ContentDesc
+import com.eastern.parser.systrace.model.ThreadDesc
 
 
 class LockWaitAnalyzer : IAnalyzer {
